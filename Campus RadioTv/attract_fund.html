@@ -1,330 +1,420 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <meta name="generator" content="">
-    <title>Art Club | Campus TV</title>
 
-    <link rel="canonical" href="#">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="generator" content="">
+  <title>Attract Fund | Campus TV</title>
 
-    <!-- Bootstrap core CSS -->
-<link href="https://getbootstrap.com/docs/4.5/dist/css/bootstrap.min.css" rel="stylesheet" >
+  <link rel="canonical" href="#">
 
-    <!-- Favicons -->
-<link rel="apple-touch-icon" href="image/logo/apple-touch-icon.png" sizes="180x180">
-<link rel="icon" href="image/logo/favicon-32x32.png" sizes="32x32" type="image/png">
-<link rel="icon" href="image/logo/favicon-16x16.png" sizes="16x16" type="image/png">
-<!-- <link rel="manifest" href="https://getbootstrap.com/docs/4.5/assets/img/favicons/manifest.json">
+  <!-- Bootstrap core CSS -->
+  <link href="https://getbootstrap.com/docs/4.5/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" href="image/logo/apple-touch-icon.png" sizes="180x180">
+  <link rel="icon" href="image/logo/favicon-32x32.png" sizes="32x32" type="image/png">
+  <link rel="icon" href="image/logo/favicon-16x16.png" sizes="16x16" type="image/png">
+  <!-- <link rel="manifest" href="https://getbootstrap.com/docs/4.5/assets/img/favicons/manifest.json">
 <link rel="mask-icon" href="https://getbootstrap.com/docs/4.5/assets/img/favicons/safari-pinned-tab.svg" color="#563d7c"> -->
-<link rel="icon" href="image/logo/favicon.ico">
+  <link rel="icon" href="image/logo/favicon.ico">
+
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <!-- Google Fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+  <!-- Bootstrap core CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.0/css/mdb.min.css" rel="stylesheet">
+  <meta name="msapplication-config" content="https://getbootstrap.com/docs/4.5/assets/img/favicons/browserconfig.xml">
+  <meta name="theme-color" content="#563d7c">
 
 
-<!-- Font Awesome -->
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
-<!-- Google Fonts -->
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
-<!-- Bootstrap core CSS -->
-<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
-<!-- Material Design Bootstrap -->
-<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.0/css/mdb.min.css" rel="stylesheet">
-<meta name="msapplication-config" content="https://getbootstrap.com/docs/4.5/assets/img/favicons/browserconfig.xml">
-<meta name="theme-color" content="#563d7c">
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
 
-
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
       }
+    }
 
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
+    #jumbo {
+      background: url("image/jumbo.jpg")no-repeat;
+      background-size: cover;
+    }
+
+    .ftco-animate {
+
+      background-color: #f9f7f7;
+      color: black;
+    }
+
+    .ftco-animate:hover {
+      background-color:rgba(193, 195, 230, 0.72);
+      color: white;
+    }
+
+    @media (max-width: 992px) {
+      .ftco-animate {
+        margin-left: auto;
+        margin-right: auto;
       }
-    
-     #jumbo{
-       background: url("image/jumbo.jpg")no-repeat;
-       background-size: cover;
-     }
-      
-    </style>
-    <!-- Custom styles for this template -->
-    <link href="https://getbootstrap.com/docs/4.5/examples/carousel/carousel.css" rel="stylesheet">
-    <script src="https://unpkg.com/css-doodle@0.8.5/css-doodle.min.js"></script>
-  </head>
-  <body>
-   
-<header>
+    }
+  </style>
+  <!-- Custom styles for this template -->
+  <link href="https://getbootstrap.com/docs/4.5/examples/carousel/carousel.css" rel="stylesheet">
+  <script src="https://unpkg.com/css-doodle@0.8.5/css-doodle.min.js"></script>
+</head>
 
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: white;">
-    <div class="container">
-    <a class="navbar-brand" href="#"><img src=" http://startupworld.in/image/theme/logo.png" width="120" height="auto"></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar"
-        aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    
-    <div class="collapse navbar-collapse" id="navbar">
-        <ul class="navbar-nav ml-auto bg-black">
+<body>
+
+  <header>
+
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: white;">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src=" http://startupworld.in/image/theme/logo.png" width="120"
+            height="auto"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="navbar-nav ml-auto bg-black">
             <li class="nav-item ">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Technologies We Handle</a>
+              <a class="nav-link" href="#">Technologies We Handle</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Our Domains</a>
+              <a class="nav-link" href="#">Our Domains</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">What we tech</a>
+              <a class="nav-link" href="#">What we tech</a>
             </li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="DropdownMenuLink" role="button"
-                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Training
-                </a>
-                <div class="dropdown-menu" aria-labelledby="DropdownMenuLink">
-                    <a class="dropdown-item" href="#">Courses</a>
-                    <a class="dropdown-item" href="#">Syllabus</a>
-                </div>
+              <a class="nav-link dropdown-toggle" href="#" id="DropdownMenuLink" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Training
+              </a>
+              <div class="dropdown-menu" aria-labelledby="DropdownMenuLink">
+                <a class="dropdown-item" href="#">Courses</a>
+                <a class="dropdown-item" href="#">Syllabus</a>
+              </div>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="#">Internship</a>
+              <a class="nav-link" href="#">Internship</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Contact Us</a>
+              <a class="nav-link" href="#">Contact Us</a>
             </li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="DropdownMenuLink" role="button"
-                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Register
-                </a>
-                <div class="dropdown-menu" aria-labelledby="DropdownMenuLink">
-                    <a class="dropdown-item" href="#">Register for Student</a>
-                    <a class="dropdown-item" href="#">Ethical HR Registration</a>
-                    <a class="dropdown-item" href="#">Register college </a>
-                    <a class="dropdown-item" href="#">Register Teacher </a>
-                    <a class="dropdown-item" href="#">Register Employer </a>
-                    <a class="dropdown-item" href="#">Register Sponser </a>
-                    <a class="dropdown-item" href="#">Register Mentor </a>
-                    <a class="dropdown-item" href="#">Today Winners</a>
-                </div>
+              <a class="nav-link dropdown-toggle" href="#" id="DropdownMenuLink" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Register
+              </a>
+              <div class="dropdown-menu" aria-labelledby="DropdownMenuLink">
+                <a class="dropdown-item" href="#">Register for Student</a>
+                <a class="dropdown-item" href="#">Ethical HR Registration</a>
+                <a class="dropdown-item" href="#">Register college </a>
+                <a class="dropdown-item" href="#">Register Teacher </a>
+                <a class="dropdown-item" href="#">Register Employer </a>
+                <a class="dropdown-item" href="#">Register Sponser </a>
+                <a class="dropdown-item" href="#">Register Mentor </a>
+                <a class="dropdown-item" href="#">Today Winners</a>
+              </div>
             </li>
-        </ul>
-      </div>
-</nav>
-</header>
+          </ul>
+        </div>
+    </nav>
+  </header>
 
 
-<main role="main">
-   <!-- Jumbotron -->
-<div class="card card-image mt-4" style="background-image: url(images/art_bg.jpg);">
-    <div class="text-white text-center rgba-stylish-strong py-5 px-4">
-      <div class="py-5">
-  
-        <!-- Content -->
-        <h5 class="h5 orange-text"><i class="fas fa-tv"></i> Campus TV</h5>
-        <h2 class="card-title h2 my-4 py-2">Attract different Arts clubs</h2>
-        <p class="mb-4 pb-2 px-md-5 mx-md-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur obcaecati vero aliquid libero doloribus ad, unde tempora maiores, ullam, modi qui quidem minima debitis perferendis vitae cumque et quo impedit.</p>
-        <a class="btn peach-gradient"><i class="fas fa-clone left"></i> View project</a>
-  
-      </div>
-    </div>
-  </div>
-  <!-- Jumbotron -->
+  <main role="main">
 
-
-
-
-  <div class="hero-wrap js-fullheight">
-    <div class="overlay"></div>
-    <div class="container-fluid px-0">
-      <div class="row d-md-flex no-gutters slider-text align-items-center js-fullheight justify-content-end">
-        <img class="one-third js-fullheight align-self-end order-md-last img-fluid" src="images/undraw_pair_programming_njlp.svg" alt="">
-        <div class="one-forth d-flex align-items-center ftco-animate js-fullheight">
+    <div class="container mt-5 py-3">
+      <div class="row  mt-5 py-3">
+        <div class="col-12 col-sm-6">
           <div class="text mt-5">
-            <span class="subheading">Isometric Hosting</span>
-            <h1 class="mb-3"><span>Design,</span> <span>Development,</span> <span>Hosting</span></h1>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-            <p><a href="#" class="btn btn-primary px-4 py-3">Get in touch</a></p>
+            <span class="subheading"><span class="fas fa-tv"></span> Campus TV</span>
+            <h1 class="mb-3"> Attract Funding</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut natus cum eaque laudantium libero cupiditate.
+            </p>
+            <p><a href="#" class="btn btn-primary px-4 py-3" style="    background: #6927ff;">View Project</a></p>
           </div>
+        </div>
+        <div class="col-12 col-sm-6">
+          <img class=" align-self-end  img-fluid" src="images/undraw_pair_programming_njlp.svg" alt="">
         </div>
       </div>
     </div>
-  </div>
-  
+    <div class="jumbotron jumbotron-fluid" style="background-image: url(images/p_etc.jpg);
+    background-size: cover;">
+      <div class="container">
+        <section class="ftco-section services-section text-white">
+          <div class="container">
 
-    <!-- START THE FEATURETTES -->
+            <div class="row justify-content-center mb-5 pb-3">
+              <div class="col-md-7 text-center heading-section ">
+                <h1 class="h1 mb-4 text-white font-weight-bold">Heading</h1>
+                <p style="font-family: 'Open Sans', sans-serif;">Lorem ipsum dolor sit amet consectetur adipisicing
+                  elit. Quidem enim sapiente quam, explicabo quae perspiciatis!</p>
+              </div>
+            </div>
+            <div class="row">
 
-   <div class="container mt-5 ">
-    <hr class="featurette-divider">
-    <div class="row featurette" style="margin-bottom: 5rem;">
-      <div class="col-md-7 order-md-2">
-       
-        <h2 class="featurette-heading mt-0">Lorem, ipsum dolor.</h2>
-        <h3><span class="text-muted">Lorem ipsum dolor sit.</span></h3>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, hic?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, quos?</p>
-      </div>
-      <div class="col-md-5 order-md-1">
-        <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg> -->
-        <img src="images/img1.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" alt="">
+              <div class="col-md-5 d-flex align-items-center ftco-animate  my-3 mx-auto py-5 px-5 " style="margin-left: -2rem;
+                           margin-right: 2rem;">
+                <div class="media block-6 services d-flex align-items-center">
+                  <div class="icon d-flex align-items-center justify-content-center order-md-last">
+                    <span class="flaticon-cloud"></span>
+                  </div>
+                  <div class="media-body pl-4 pl-md-0 pr-md-4 text-md-right">
+                    <h3 class="heading">Heading1</h3>
+                    <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora quod est quidem,
+                      alias veniam deserunt.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-5 d-flex align-self-stretch ftco-animate  my-3 py-5 px-5 mx-auto">
+                <div class="media block-6 services d-flex align-items-center">
+                  <div class="icon d-flex align-items-center justify-content-center">
+                    <span class="flaticon-server"></span>
+                  </div>
+                  <div class="media-body pl-4">
+                    <h3 class="heading">Heading2</h3>
+                    <p class="mb-0">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia placeat possimus
+                      recusandae quos non praesentium.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-5 d-flex align-self-stretch ftco-animate my-3 py-5 px-5 mx-auto" style="margin-left: -2rem;
+                  margin-right: 2rem;">
+                <div class="media block-6 services d-flex align-items-center">
+                  <div class="icon d-flex align-items-center justify-content-center order-md-last">
+                    <span class="flaticon-customer-service"></span>
+                  </div>
+                  <div class="media-body pl-4 pl-md-0 pr-md-4 text-md-right">
+                    <h3 class="heading">Heading3</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum accusamus amet eius facere
+                      quidem
+                      quam.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-5 d-flex align-self-stretch ftco-animate my-3 py-5 px-5 mx-auto">
+                <div class="media block-6 services d-flex align-items-center">
+                  <div class="icon d-flex align-items-center justify-content-center">
+                    <span class="flaticon-life-insurance"></span>
+                  </div>
+                  <div class="media-body pl-4">
+                    <h3 class="heading">Heading4</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium doloremque nesciunt
+                      facere
+                      ipsa accusamus aperiam.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-5 d-flex align-self-stretch ftco-animate my-3 py-5 px-5 mx-auto" style="margin-left: -2rem;
+                  margin-right: 2rem;">
+                <div class="media block-6 services d-flex align-items-center">
+                  <div class="icon d-flex align-items-center justify-content-center order-md-last">
+                    <span class="flaticon-customer-service"></span>
+                  </div>
+                  <div class="media-body pl-4 pl-md-0 pr-md-4 text-md-right">
+                    <h3 class="heading">Heading3</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum accusamus amet eius facere
+                      quidem
+                      quam.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-5 d-flex align-self-stretch ftco-animate my-3 py-5 px-5 mx-auto">
+                <div class="media block-6 services d-flex align-items-center">
+                  <div class="icon d-flex align-items-center justify-content-center">
+                    <span class="flaticon-life-insurance"></span>
+                  </div>
+                  <div class="media-body pl-4">
+                    <h3 class="heading">Heading4</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium doloremque nesciunt
+                      facere
+                      ipsa accusamus aperiam.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
     </div>
-    <hr class="featurette-divider">
-    <div class="row featurette mt-5">
-      <div class="col-md-7" >
-        
-        <h2 class="featurette-heading" style="margin-top: 0rem;">App Marketing </h2>
-        <h3><span class="text-muted">Lorem ipsum dolor sit.</span></h3>
-        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis distinctio dicta similique, dolorem voluptates itaque placeat doloribus beatae iusto ducimus! Porro nemo id nobis doloribus sit qui magnam est dicta, alias, odit enim mollitia quaerat placeat nisi voluptate ipsa voluptatem.</p>
-      </div>
-      <div class="col-md-5 align-self-center">
-        <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg> -->
-        <img src="images/img2.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" alt="">
-      </div>
-    </div>
-    <hr class="featurette-divider">
-  </div><!-- /.container -->
- 
-<center>
-  <div class="container my-5 mb-5">
-    <h1 class="h1 text-center">Heading</h1>
-    <div class="row my-5 " style="margin-bottom: 7rem;">
-      <div class="col-12 col-lg-4 justify-self-center mb-5">
-        <div class="card" style="width: 18rem;">
-          <img src="images/card_img.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <section class="testimony-section mt-5 py-5">
+      <div class="container mt-5">
+        <div class="row justify-content-center py-5 mb-5 pb-3" style="background-color: #8989ff70;">
+          <div class="col-md-7 text-center heading-section">
+            <span class="h6"> <span class="fa fa-tv"></span> Campus TV</span>
+            <h2 class="text-dark font-weight-bold mb-4">Lorem, ipsum dolor.</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus cum blanditiis laboriosam similique,
+              iste veniam odio ipsam, optio ex nobis, inventore repellendus at dolorem esse.</p>
           </div>
         </div>
-      </div>
-      <div class="col-12 col-lg-4 mb-5">
-        <div class="card" style="width: 18rem;">
-          <img src="images/card_img2.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-lg-4 mb-5">
-        <div class="card" style="width: 18rem;">
-          <img src="images/card_img3.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-   
-  </div>
-</center>
-  <div class="jumbotron jumbotron-fluid text-white" style="background:url(images/jumbo_img.jpg);">
-    <div class="container">
-      <section class="section  section-services " id="services">
+
         <div class="container">
-          <div class="section-head text-left">
-            <!-- <h1 class="h1">Heading</h1> -->
+          <div id="mycarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active ">
+                <center>
+                  <div class="testimonial">
+                    <!--Avatar-->
+                    <div class="avatar mx-auto mb-4">
+                      <img src="images/p_img1.jpg" class="rounded-circle img-fluid" alt="First sample avatar image">
+                    </div>
+                    <!--Content-->
+                    <p>
+                      <i class="fas fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod
+                      eos
+                      id officiis hic tenetur quae quaerat ad velit ab. Lorem ipsum dolor sit amet, consectetur
+                      adipisicing elit. Dolore cum accusamus eveniet molestias voluptatum inventore laboriosam labore
+                      sit, aspernatur praesentium iste impedit quidem dolor veniam.
+                    </p>
+                    <h4 class="font-weight-bold">Heading</h4>
+                    <h6 class="font-weight-bold my-3">Lorem, ipsum dolor.</h6>
+                    <!--Review-->
+                    <i class="fas fa-star blue-text"> </i>
+                    <i class="fas fa-star blue-text"> </i>
+                    <i class="fas fa-star blue-text"> </i>
+                    <i class="fas fa-star blue-text"> </i>
+                    <i class="fas fa-star-half-alt blue-text"> </i>
+                  </div>
+                </center>
+              </div>
+              <div class="carousel-item">
+                <center>
+                  <div class="testimonial">
+                    <!--Avatar-->
+                    <div class="avatar mx-auto mb-4">
+                      <img src="images/p_img2.jpg" class="rounded-circle img-fluid" alt="Second sample avatar image">
+                    </div>
+                    <!--Content-->
+                    <p>
+                      <i class="fas fa-quote-left"></i> Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
+                      odit
+                      aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque
+                      porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia
+                      non numquam eius modi tempora incidunt ut labore. </p>
+                    <h4 class="font-weight-bold">Heading</h4>
+                    <h6 class="font-weight-bold my-3">Lorem ipsum dolor sit.</h6>
+                    <!--Review-->
+                    <i class="fas fa-star blue-text"> </i>
+                    <i class="fas fa-star blue-text"> </i>
+                    <i class="fas fa-star blue-text"> </i>
+                    <i class="fas fa-star blue-text"> </i>
+                    <i class="fas fa-star blue-text"> </i>
+                  </div>
+                </center>
+              </div>
+              <div class="carousel-item">
+                <center>
+                  <div class="testimonial">
+                    <!--Avatar-->
+                    <div class="avatar mx-auto mb-4">
+                      <img src="images/p_img3.jpg" class="rounded-circle img-fluid" alt="Third sample avatar image">
+                    </div>
+                    <!--Content-->
+                    <p>
+                      <i class="fas fa-quote-left"></i> Duis aute irure dolor in reprehenderit in voluptate velit esse
+                      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                      culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus
+                      error sit voluptatem accusantium doloremque laudantium.</p>
+                    <h4 class="font-weight-bold">Heading</h4>
+                    <h6 class="font-weight-bold my-3">Lorem ipsum dolor sit.</h6>
+                    <!--Review-->
+                    <i class="fas fa-star blue-text"> </i>
+                    <i class="fas fa-star blue-text"> </i>
+                    <i class="fas fa-star blue-text"> </i>
+                    <i class="fas fa-star blue-text"> </i>
+                    <i class="far fa-star blue-text"> </i>
+                  </div>
+
+                </center>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="fas fa-arrow-left" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
           </div>
-    
-          <div class="row">
-            <div class="col-sm-6 col-md-4">
-              <div class="services-list d-flex py-4 mb-0 mb-md-4">
-                <div class="services-list-icon">
-                  <i class="fas fa-paint-brush  "></i> 
-                </div>
-                <div>
-                  <h4 class="h4 mb-0 ml-3">Heading 1</h4>
-                  <p class=" mt-3 ml-3">Ipsum veniam asperiores suscipit facilis! Iste adipisci quibusdam obcaecati nobis consectetur</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-md-4">
-              <div class="services-list d-flex py-4 mb-0 mb-md-4">
-                <div class="services-list-icon">
-                  <i class="fas fa-palette  "></i> 
-                </div>
-                <div>
-                  <h4 class="h4 mb-0 ml-3">Heading 2</h4>
-                  <p class=" mt-3 ml-3">Ipsum veniam asperiores suscipit facilis! Iste adipisci quibusdam obcaecati nobis consectetur</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-md-4">
-              <div class="services-list d-flex py-4 mb-0 mb-md-4">
-                <div class="services-list-icon">
-                  <i class="fas fa-compact-disc  "></i> 
-                </div>
-                <div>
-                  <h4 class="h4 mb-0 ml-3">Heading 3</h4>
-                  <p class=" mt-3 ml-3">Ipsum veniam asperiores suscipit facilis! Iste adipisci quibusdam obcaecati nobis consectetur</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-md-4">
-              <div class="services-list d-flex py-4 mb-0 mb-md-4">
-                <div class="services-list-icon">
-                  <i class="fa fa-puzzle-piece  " aria-hidden="true"></i> 
-                </div>
-                <div>
-                  <h4 class="h4 mb-0 ml-3">Heading 4</h4>
-                  <p class=" mt-3 ml-3">Ipsum veniam asperiores suscipit facilis! Iste adipisci quibusdam obcaecati nobis consectetur</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-md-4">
-              <div class="services-list d-flex py-4 mb-0 mb-md-4">
-                <div class="services-list-icon">
-                  <i class="fa fa-gamepad  " aria-hidden="true"></i> 
-                </div>
-                <div>
-                  <h4 class="h4 mb-0 ml-3">Heading 5</h4>
-                  <p class=" mt-3 ml-3">Ipsum veniam asperiores suscipit facilis! Iste adipisci quibusdam obcaecati nobis consectetur</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-md-4">
-              <div class="services-list d-flex py-4 mb-0 mb-md-4">
-                <div class="services-list-icon">
-                  <i class="far fa-chart-bar  "></i> 
-                </div>
-                <div>
-                  <h4 class="h4 mb-0 ml-3">Heading 6</h4>
-                  <p class=" mt-3 ml-3">Ipsum veniam asperiores suscipit facilis! Iste adipisci quibusdam obcaecati nobis consectetur</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        
         </div>
+      </div>
+      <section class="mt-5 mx-0">
+        <div class="jumbotron jumbotron-fluid text-white py-5" style="background: #6927ff">
+          <div class="container py-5">
+
+            <div class="row justify-content-center   text-center mb-5">
+
+              <h3>Lorem ipsum dolor sit amet.</h3>
+
+            </div>
+            <div class="row text-center">
+              <p class="h5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et velit possimus repudiandae
+                voluptate rerum nulla qui natus aperiam sit dolorem.</p>
+            </div>
+
+          </div>
       </section>
-    
-   </div>
-  </div>
 
 
-  
-<!-- FOOTER -->
-  <footer class="container">
-    <p class="float-right"><a href="#">Back to top</a></p>
-    <p>&copy; 2017-2020 Startupworld, &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-  </footer>
-</main>
+
+      <!-- FOOTER -->
+      <footer class="container">
+        <p class="float-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2017-2020 Startupworld, &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      </footer>
+
+  </main>
+</body>
+
 <!-- JQuery -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <!-- Bootstrap tooltips -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
 <!-- Bootstrap core JavaScript -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<script type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
 <!-- MDB core JavaScript -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.0/js/mdb.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-      <script>window.jQuery || document.write('<script src="https://getbootstrap.com/docs/4.5/assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="https://getbootstrap.com/docs/4.5/dist/js/bootstrap.bundle.min.js" ></script></body>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+  integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="https://getbootstrap.com/docs/4.5/assets/js/vendor/jquery.slim.min.js"><\/script>')</script>
+<script src="https://getbootstrap.com/docs/4.5/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+  $(document).ready(function () {
+    $('#mycarousel').carousel({ interval: 2000 });
+
+
+  });
+</script>
+</body>
+
 </html>
