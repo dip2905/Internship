@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="generator" content="">
+    <title>Startupworld | Smart Cookie Projects </title>
+
+    <link rel="canonical" href="#">
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://getbootstrap.com/docs/4.5/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.0/css/mdb.min.css" rel="stylesheet">
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="images/logo/apple-touch-icon.png" sizes="180x180">
+    <link rel="icon" href="images/logo/favicon-32x32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="images/logo/favicon-16x16.png" sizes="16x16" type="image/png">
+    <!-- <link rel="manifest" href="https://getbootstrap.com/docs/4.5/assets/img/favicons/manifest.json">
+<link rel="mask-icon" href="https://getbootstrap.com/docs/4.5/assets/img/favicons/safari-pinned-tab.svg" color="#563d7c"> -->
+    <link rel="icon" href="images/logo/favicon.ico">
+    <meta name="msapplication-config" content="https://getbootstrap.com/docs/4.5/assets/img/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#563d7c">
+
+
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+
+        .img_s {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 0px 0 rgba(0, 0, 0, 0.19);
+
+        }
+
+        .bg-light {
+            background-color: #fff !important;
+        }
+
+        .carousel-caption {
+            font-weight: 800;
+            color: blueviolet;
+            text-shadow: 2px 2px 5px rgb(224, 255, 85);
+
+        }
+
+        footer {
+            background-color: #d9e2ea;
+            padding: 20px;
+            text-align: center;
+        }
+        .timeline {
+                  position: relative;
+                  list-style: none;
+                  padding: 1rem 0;
+                  margin: 0;
+                }
+          
+                .timeline::before {
+                  content: '';
+                  position: absolute;
+                  left: 50%;
+                  top: 0;
+                  bottom: 0;
+                  width: 2px;
+                  margin-left: -1px;
+                  background-color: #50a1ff;
+                }
+          
+                .timeline-element {
+                  position: relative;
+                  width: 50%;
+                  padding: 1rem 0;
+                  padding-right: 2.5rem;
+                  text-align: right;
+                }
+          
+                .timeline-element::before {
+                  content: '';
+                  position: absolute;
+                  right: -8px;
+                  top: 1.35rem;
+                  display: inline-block;
+                  width: 16px;
+                  height: 16px;
+                  border-radius: 50%;
+                  border: 2px solid #50a1ff;
+                  background-color: #fff;
+                }
+          
+                .timeline-element:nth-child(even)::before {
+                  right: auto;
+                  left: -8px;
+                }
+          
+                .timeline-element:nth-child(even) {
+                  margin-left: 50%;
+                  padding-left: 2.5rem;
+                  padding-right: 0;
+                  text-align: left;
+                }
+          
+                @media (max-width: 767.98px) {
+                  .timeline::before {
+                    left: 8px;
+                  }
+                }
+          
+                @media (max-width: 767.98px) {
+                  .timeline-element {
+                    width: 100%;
+                    text-align: left;
+                    padding-left: 2.5rem;
+                    padding-right: 0;
+                  }
+                }
+          
+                @media (max-width: 767.98px) {
+                  .timeline-element::before {
+                    top: 1.25rem;
+                    left: 1px;
+                  }
+                }
+          
+                @media (max-width: 767.98px) {
+                  .timeline-element:nth-child(even) {
+                    margin-left: 0rem;
+                  }
+                }
+          
+                @media (max-width: 767.98px) {
+                  .timeline-element {
+                    width: 100%;
+                    text-align: left;
+                    padding-left: 2.5rem;
+                    padding-right: 0;
+                  }
+                }
+          
+                @media (max-width: 767.98px) {
+                  .timeline-element:nth-child(even)::before {
+                    left: 1px;
+                  }
+                }
+          
+                @media (max-width: 767.98px) {
+                  .timeline-element::before {
+                    top: 1.25rem;
+                  }
+                }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- Fa Fa Icon  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light" style="background-color: #257CC1;">
+            <div class="container">
+
+                <a class="navbar-brand" href="#"> <img src="http://startupworld.in/image/theme/logo.png" width="120"
+                        height="auto"> </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav mt-2 mt-md-0">
+
+                    </ul>
+
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Technologies</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#">Our Domain</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Teach</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#">Training</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Internship</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Register
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Register for Student</a>
+                                <a class="dropdown-item" href="#">Ethical HR Registration</a>
+                                <a class="dropdown-item" href="#">Register college </a>
+                                <a class="dropdown-item" href="#">Register Teacher </a>
+                                <a class="dropdown-item" href="#">Register Employer </a>
+                                <a class="dropdown-item" href="#">Register Sponser </a>
+                                <a class="dropdown-item" href="#">Register Mentor </a>
+                                <a class="dropdown-item" href="#">Today Winners</a>
+                            </div>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main role="main">
+        <!-- Jumbotron -->
+        <div class="card card-image mt-4" style="background-image:url(images/business.jpg) ;background-size: cover;">
+            <div class="text-white text-center rgba-stylish-strong py-5 px-4">
+                <div class="py-5">
+
+                    <!-- Content -->
+                    <h2 class="h2 blue-text"> <i class="fa fa-handshake-o"></i> Meet VC's</h2>
+                    <h2 class="card-title h2 my-4 py-2">Portal
+                    </h2>
+                    <p class="mb-4 pb-2 px-md-5 mx-md-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Pariatur obcaecati vero aliquid libero doloribus ad, unde tempora maiores, ullam, modi qui
+                        quidem minima debitis perferendis vitae cumque et quo impedit.</p>
+                    <a class="btn blue-gradient"><i class="fa fa-clone left"></i> View project</a>
+
+                </div>
+            </div>
+        </div>
+        <div class="container my-5 z-depth-1">
+
+
+            <!--Section: Content-->
+            <section class="dark-grey-text">
+          
+              <div class="row pr-lg-5">
+                <div class="col-md-7 mb-4">
+          
+                  <div class="view">
+                    <img src="images/programs.png" class="img-fluid" alt="smaple image">
+                  </div>
+          
+                </div>
+                <div class="col-md-5 d-flex align-items-center">
+                  <div>
+                    
+                    <h3 class="font-weight-bold mb-4">Meetings</h3>
+          
+                      <p>Lorem ipsum dolor sit amet consectetur adip elit. Maiores deleniti explicabo voluptatem quisquam nulla asperiores aspernatur aperiam voluptate et consectetur minima delectus, fugiat eum soluta blanditiis adipisci, velit dolore magnam.</p>
+          
+                      <button type="button" class="btn btn-orange btn-rounded mx-0">view more</button>
+          
+                  </div>
+                </div>
+              </div>
+          
+            </section>
+            <!--Section: Content-->
+          
+          
+          </div>
+          <div class="container my-5">
+
+
+            <!-- Section: Block Content -->
+            <section class="dark-grey-text text-center">
+          
+              <h3 class="text-center font-weight-bold mb-4 pb-2">Our best projects</h3>
+              <p class="text-center text-muted w-responsive mx-auto mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam eum porro a pariatur veniam.</p>
+          
+              <!-- Grid row -->
+              <div class="row">
+          
+                <!-- Grid column -->
+                <div class="col-md-6 mb-4">
+          
+                  <!-- Card -->
+                  <div class="card card-image" style="background-image: url(https://mdbootstrap.com/img/Photos/Horizontal/Nature/6-col/img%20%2873%29.jpg);">
+                    <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4 px-md-5 rounded">
+                      <div>
+                        <h6 class="pink-text">
+                          <i class="fas fa-chart-pie"></i>
+                          <strong> Marketing</strong>
+                        </h6>
+                        <h3 class="py-3 font-weight-bold">
+                          <strong>This is card title</strong>
+                        </h3>
+                        <p class="pb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugiat,
+                          laboriosam, voluptatem, optio vero odio nam sit officia accusamus minus error nisi architecto
+                          nulla ipsum dignissimos. Odit sed qui, dolorum!
+                        </p>
+                        <a class="btn btn-pink btn-rounded btn-md"><i class="fas fa-clone left"></i> View project</a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Card -->
+          
+                </div>
+                <!-- Grid column -->
+          
+                <!-- Grid column -->
+                <div class="col-md-6 mb-4">
+          
+                  <!-- Card -->
+                  <div class="card card-image" style="background-image: url(https://mdbootstrap.com/img/Photos/Horizontal/City/6-col/img%20%2847%29.jpg);">
+                    <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4 px-md-5 rounded">
+                      <div>
+                        <h6 class="green-text">
+                          <i class="fas fa-eye"></i>
+                          <strong> Entertainment</strong>
+                        </h6>
+                        <h3 class="py-3 font-weight-bold">
+                          <strong>This is card title</strong>
+                        </h3>
+                        <p class="pb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugiat,
+                          laboriosam, voluptatem, optio vero odio nam sit officia accusamus minus error nisi architecto
+                          nulla ipsum dignissimos. Odit sed qui, dolorum!
+                        </p>
+                        <a class="btn btn-success btn-rounded btn-md"><i class="fas fa-clone left"></i> View project</a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Card -->
+          
+                </div>
+                <!-- Grid column -->
+          
+              </div>
+              <!-- Grid row -->
+          
+            </section>
+            <!-- Section: Block Content -->
+          
+          
+          </div>
+          <div class="container my-5">
+
+
+            <!--Section: Content-->
+            <section class="">
+          
+              <!-- Section heading -->
+              <h3 class="text-center font-weight-bold mb-5">Latest meetup</h3>
+          
+              <div class="row">
+          
+                <!--Grid column-->
+                <div class="col-md-12">
+          
+                  <div class="card text-center">
+                    <div class="card-body px-5 pt-5 pb-4">
+          
+                      <!--Grid row-->
+                      <div class="row">
+          
+                        <!--Grid column-->
+                        <div class="col-md-5 mb-md-4">
+          
+                          <!--Featured image-->
+                          <div class="view overlay z-depth-1 mb-4">
+                            <img src="https://mdbootstrap.com/img/Photos/Others/img%20(43).jpg" class="img-fluid rounded-0"
+                              alt="Sample image">
+                            <a>
+                              <div class="mask rgba-white-slight waves-effect waves-light"></div>
+                            </a>
+                          </div>
+          
+                        </div>
+                        <!--Grid column-->
+          
+                        <!--Grid column-->
+                        <div class="col-md-6 text-left mb-md-5 mb-4">
+          
+                          <h4 class="mb-3"><strong>This is title of the news</strong></h4>
+                          <p class="dark-grey-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                            accusantium doloremque,
+                            totam rem aperiam, eaque ipsa quae ab illo inventore veritatis...</p>
+                          <p>by <a><strong>Carine Fox</strong></a>, 19/08/2016</p>
+                          <a class="btn btn-indigo btn-sm">Read more</a>
+          
+                        </div>
+                        <!--Grid column-->
+          
+                      </div>
+                      <!--Grid row-->
+          
+                      <!--Grid row-->
+                      <div class="row">
+          
+                        <!--Grid column-->
+                        <div class="col-md-6">
+          
+                          <!--Small news-->
+                          <div class="single-news">
+          
+                            <div class="row mb-3">
+          
+                              <div class="col-md-4">
+                                <!--Image-->
+                                <div class="view overlay rgba-white-slight z-depth-1 mb-3">
+                                  <img src="https://mdbootstrap.com/img/Photos/Horizontal/People/4-col/img%20(95).jpg"
+                                    class="img-fluid rounded-0" alt="Minor sample post image">
+                                  <a>
+                                    <div class="mask rgba-white-slight waves-effect waves-light"></div>
+                                  </a>
+                                </div>
+                              </div>
+          
+                              <!--Excerpt-->
+                              <div class="col-md-8">
+                                <p class="font-small text-left mb-2"><strong>19/08/2016</strong></p>
+                                <p class="text-left"><a>Title of the news
+                                    <i class="fas fa-angle-right float-right"></i>
+                                  </a></p>
+                              </div>
+          
+                            </div>
+          
+                          </div>
+                          <!--/Small news-->
+          
+                          <!--Small news-->
+                          <div class="single-news">
+          
+                            <div class="row mb-3">
+          
+                              <div class="col-md-4">
+                                <!--Image-->
+                                <div class="view overlay rgba-white-slight z-depth-1 mb-3">
+                                  <img src="https://mdbootstrap.com/img/Photos/Horizontal/People/4-col/img%20(78).jpg"
+                                    class="img-fluid rounded-0" alt="Minor sample post image">
+                                  <a>
+                                    <div class="mask rgba-white-slight waves-effect waves-light"></div>
+                                  </a>
+                                </div>
+                              </div>
+          
+                              <!--Excerpt-->
+                              <div class="col-md-8">
+                                <p class="font-small text-left mb-2"><strong>18/08/2016</strong></p>
+                                <p class="text-left"><a>Title of the news
+                                    <i class="fas fa-angle-right float-right"></i>
+                                  </a></p>
+                              </div>
+          
+                            </div>
+          
+                          </div>
+                          <!--/Small news-->
+          
+                          <!--Small news-->
+                          <div class="single-news">
+          
+                            <div class="row mb-3">
+          
+                              <div class="col-md-4">
+                                <!--Image-->
+                                <div class="view overlay rgba-white-slight z-depth-1 mb-3">
+                                  <img src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(45).jpg"
+                                    class="img-fluid rounded-0" alt="Minor sample post image">
+                                  <a>
+                                    <div class="mask rgba-white-slight waves-effect waves-light"></div>
+                                  </a>
+                                </div>
+                              </div>
+          
+                              <!--Excerpt-->
+                              <div class="col-md-8">
+                                <p class="font-small text-left mb-2"><strong>17/08/2016</strong></p>
+                                <p class="text-left"><a>Title of the news
+                                    <i class="fas fa-angle-right float-right"></i>
+                                  </a></p>
+                              </div>
+          
+                            </div>
+          
+                          </div>
+                          <!--/Small news-->
+          
+                        </div>
+                        <!--Grid column-->
+          
+                        <!--Grid column-->
+                        <div class="col-md-6">
+          
+                          <!--Small news-->
+                          <div class="single-news">
+          
+                            <div class="row mb-3">
+          
+                              <div class="col-md-4">
+                                <!--Image-->
+                                <div class="view overlay rgba-white-slight z-depth-1 mb-3">
+                                  <img src="https://mdbootstrap.com/img/Photos/Horizontal/People/4-col/img%20(93).jpg"
+                                    class="img-fluid rounded-0" alt="Minor sample post image">
+                                  <a>
+                                    <div class="mask rgba-white-slight waves-effect waves-light"></div>
+                                  </a>
+                                </div>
+                              </div>
+          
+                              <!--Excerpt-->
+                              <div class="col-md-8">
+                                <p class="font-small text-left mb-2"><strong>19/08/2016</strong></p>
+                                <p class="text-left"><a>Title of the news
+                                    <i class="fas fa-angle-right float-right"></i>
+                                  </a></p>
+                              </div>
+          
+                            </div>
+          
+                          </div>
+                          <!--/Small news-->
+          
+                          <!--Small news-->
+                          <div class="single-news">
+          
+                            <div class="row mb-3">
+          
+                              <div class="col-md-4">
+                                <!--Image-->
+                                <div class="view overlay rgba-white-slight z-depth-1 mb-3">
+                                  <img src="https://mdbootstrap.com/img/Photos/Horizontal/People/6-col/img%20(43).jpg"
+                                    class="img-fluid rounded-0" alt="Minor sample post image">
+                                  <a>
+                                    <div class="mask rgba-white-slight waves-effect waves-light"></div>
+                                  </a>
+                                </div>
+                              </div>
+          
+                              <!--Excerpt-->
+                              <div class="col-md-8">
+                                <p class="font-small text-left mb-2"><strong>18/08/2016</strong></p>
+                                <p class="text-left"><a>Title of the news
+                                    <i class="fas fa-angle-right float-right"></i>
+                                  </a></p>
+                              </div>
+          
+                            </div>
+                          </div>
+                          <!--/Small news-->
+          
+                          <!--Small news-->
+                          <div class="single-news">
+          
+                            <div class="row mb-3">
+          
+                              <div class="col-md-4">
+                                <!--Image-->
+                                <div class="view overlay rgba-white-slight z-depth-1 mb-3">
+                                  <img src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg"
+                                    class="img-fluid rounded-0" alt="Minor sample post image">
+                                  <a>
+                                    <div class="mask rgba-white-slight waves-effect waves-light"></div>
+                                  </a>
+                                </div>
+                              </div>
+          
+                              <!--Excerpt-->
+                              <div class="col-md-8">
+                                <p class="font-small text-left mb-2"><strong>17/08/2016</strong></p>
+                                <p class="text-left"><a>Title of the news
+                                    <i class="fas fa-angle-right float-right"></i>
+                                  </a></p>
+                              </div>
+          
+                            </div>
+          
+                          </div>
+                          <!--/Small news-->
+          
+                        </div>
+                        <!--Grid column-->
+          
+                      </div>
+                      <!--Grid row-->
+          
+                    </div>
+                  </div>
+          
+                </div>
+                <!--Grid column-->
+          
+              </div>
+          
+            </section>
+            <!--Section: Content-->
+          
+          
+          </div>
+          <div class="container mt-5">
+
+
+            <!--Section: Content-->
+            <section class="">
+          
+              <!-- Section heading -->
+              <h3 class="text-center font-weight-bold mb-5">Latest news</h3>
+          
+                <!-- Grid row -->
+              <div class="row">
+          
+                <!-- Grid column -->
+                <div class="col-lg-4 col-md-12 mb-lg-0 mb-4">
+          
+                  <!-- Card -->
+                  <div class="card hoverable">
+          
+                    <!-- Card image -->
+                    <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/58.jpg" alt="Card image cap">
+          
+                    <!-- Card content -->
+                    <div class="card-body">
+          
+                      <!-- Title -->
+                      <a href="#!" class="black-text">We relocated to a new garage</a>
+                      <!-- Text -->
+                      <p class="card-title text-muted font-small mt-3 mb-2">Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title.</p>
+                                  
+                      
+                    </div>
+          
+                  </div>
+                  <!-- Card -->
+          
+                </div>
+                <!-- Grid column -->
+          
+                <!-- Grid column -->
+                <div class="col-lg-4 col-md-6 mb-md-0 mb-4">
+          
+                  <!-- Card -->
+                  <div class="card hoverable">
+          
+                    <!-- Card image -->
+                    <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/project4.jpg" alt="Card image cap">
+          
+                    <!-- Card content -->
+                    <div class="card-body">
+          
+                      <!-- Title -->
+                      <a href="#!" class="black-text">Top 5 content marketing strategies</a>
+                      <!-- Text -->
+                      <p class="card-title text-muted font-small mt-3 mb-2">Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title.</p>
+                                  
+                      
+                    </div>
+          
+                  </div>
+                  <!-- Card -->
+          
+                </div>
+                <!-- Grid column -->
+          
+                <!-- Grid column -->
+                <div class="col-lg-4 col-md-6 mb-0">
+          
+                  <!-- Card -->
+                  <div class="card hoverable">
+          
+                    <!-- Card image -->
+                    <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/88.jpg" alt="Card image cap">
+          
+                    <!-- Card content -->
+                    <div class="card-body">
+          
+                      <!-- Title -->
+                      <a href="#!" class="black-text">Best practices for minimal design</a>
+                      <!-- Text -->
+                      <p class="card-title text-muted font-small mt-3 mb-2">Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title.</p>
+                                  
+                     
+                      
+                    </div>
+          
+                  </div>
+                  <!-- Card -->
+          
+                </div>
+                <!-- Grid column -->
+          
+              </div>
+              <!-- Grid row -->
+              
+              <div class="text-center mt-5">
+                  <a href="#!">Browse all blog posts</a>
+              </div>
+          
+            </section>
+            <!--Section: Content-->
+
+          
+          
+          </div>
+          <div class="container z-depth-1 my-5 py-5 px-4 px-lg-0">
+
+            <!-- Section -->
+            <section>
+              
+            
+                
+              
+              <h3 class="font-weight-bold text-center dark-grey-text pb-2">Our History</h3>
+              <hr class="w-header my-4">
+              <p class="lead text-center text-muted pt-2 mb-5">MDB founded to help startups, and it still shapes the way we work today.</p>
+              
+              <div class="row">
+                <div class="col-lg-8 mx-auto">
+          
+                  <ol class="timeline">
+                    <li class="timeline-element">
+                      <h5 class="font-weight-bold dark-grey-text mb-3">Launched our website</h5>
+                      <p class="grey-text font-small"><time datetime="2017-02-08">08 Feb 2017</time></p>
+                      <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ullam adipisci reiciendis porro natus laudantium similique. 
+                        Explicabo amet ipsum fugiat aliquam alias.</p>
+                    </li>
+          
+                    <li class="timeline-element">
+                      <h5 class="font-weight-bold dark-grey-text mb-3">Got the first 100 users</h5>
+                      <p class="grey-text font-small"><time datetime="2017-08-17">17 Aug 2017</time></p>
+                      <p><img class="img-fluid z-depth-1-half rounded" src="https://mdbootstrap.com/img/Photos/Horizontal/Work/12-col/img%20(6).jpg" alt="..."></p>
+                      <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ullam adipisci reiciendis porro natus laudantium similique. 
+                        Explicabo amet ipsum fugiat aliquam alias.</p>
+                    </li>
+          
+                    <li class="timeline-element">
+                      <h5 class="font-weight-bold dark-grey-text mb-3">Raised $1.4 million in seed funding</h5>
+                      <p class="grey-text font-small"><time datetime="2018-03-26">26 Mar 2019</time></p>
+                      <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ullam adipisci reiciendis porro natus laudantium similique. 
+                        Explicabo amet ipsum fugiat aliquam alias.</p>
+                    </li>
+          
+                    <li class="timeline-element">
+                      <h5 class="font-weight-bold dark-grey-text mb-3">Team size increased to 20</h5>
+                      <p class="grey-text font-small"><time datetime="2018-04-14">14 Apr 2019</time></p>
+                      <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ullam adipisci reiciendis porro natus laudantium similique. 
+                        Explicabo amet ipsum fugiat aliquam alias.</p>
+                    </li>
+                  </ol>
+          
+                </div>
+              </div>
+              
+            </section>
+            <!-- Section -->
+            
+          </div>
+          <div class="container my-5 py-5 z-depth-1 bg-grey" style="background: black;" >
+ 
+
+            <!--Section: Content-->
+            <section class="text-center px-md-5 mx-md-5 white-text">
+        
+              <!--Grid row-->
+              <div class="row d-flex justify-content-center">
+        
+                <!--Grid column-->
+                <div class="col-lg-7">
+        
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores deleniti explicabo voluptatem quisquam nulla asperiores aspernatur aperiam voluptate et consectetur minima delectus, fugiat eum soluta blanditiis adipisci, velit dolore magnam.</p>
+        
+                </div>
+                <!--Grid column-->
+        
+              </div>
+              <!--Grid row-->
+            </section>
+            <!--Section: Content-->
+        
+        
+          </div>
+          <footer class="container-fluid">
+            <p class="float-right"><a href="#">Back to top</a></p>
+            <p>&copy; 2017-2020 Startupworld, &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+        </footer>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script>window.jQuery || document.write('<script src="https://getbootstrap.com/docs/4.5/assets/js/vendor/jquery.slim.min.js"><\/script>')</script>
+    <script src="https://getbootstrap.com/docs/4.5/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
