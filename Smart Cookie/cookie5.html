@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Startup World</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+<style>
+    .card.card-image 
+    {
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+    }
+    .rgba-stylish-strong 
+    {
+       background-color: rgba(62,69,81,0.7);
+    }
+    .orange-text 
+    {
+       color: #ff9800 !important;
+    }
+    .fa-camera-retro:before 
+    {
+       content: "\f083";
+    }
+    .fa-clone:before 
+    {
+       content: "\f24d";
+    }
+    a.btn:not([href]):not([tabindex]), a.btn:not([href]):not([tabindex]):focus, a.btn:not([href]):not([tabindex]):hover {
+    color: #fff;
+    }
+    .btn
+    {
+      background: rgb(232,15,38);
+      background: linear-gradient(243deg, rgba(232,15,38,1) 0%, rgba(232,15,38,1) 100%, rgba(241,247,15,1) 100%);
+    }
+    
+    
+    .col .s6 .m6
+    {
+        background-image: url(img/back.png);
+    } 
+    .card
+    {
+        box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2) , 0 4px 20px 0 rgba(0,0,0,0.19);
+        
+      }
+      .card .card-img-top
+      {
+        box-shadow: 0 4px 5px 0 rgba(0,0,0,0.2) , 0 4px 5px 0 rgba(0,0,0,0.19);
+        height: 180px;
+        width: 287px;
+      }
+</style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light" style="background-color: #e3f2fd;">
+        <div class="container">
+          
+        <a class="navbar-brand" href="#"> <img src="http://startupworld.in/image/theme/logo.png" width="120" height="auto"> </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mt-2 mt-md-0">
+           
+          </ul>
+         
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item ">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#">Technologies We Handle</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#">Our Domains</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#">What we tech</a>
+          </li>
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="DropdownMenuLink" role="button"
+                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Training
+              </a>
+              <div class="dropdown-menu" aria-labelledby="DropdownMenuLink">
+                  <a class="dropdown-item" href="#">Courses</a>
+                  <a class="dropdown-item" href="#">Syllabus</a>
+              </div>
+          </li>
+          <li class="nav-item active">
+              <a class="nav-link" href="#">Internship</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+          </li>
+          <li class="nav-item dropdown active">
+              <a class="nav-link dropdown-toggle" href="#" id="DropdownMenuLink" role="button"
+                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Register
+              </a>
+              <div class="dropdown-menu" aria-labelledby="DropdownMenuLink">
+                  <a class="dropdown-item" href="#">Register for Student</a>
+                  <a class="dropdown-item" href="#">Ethical HR Registration</a>
+                  <a class="dropdown-item" href="#">Register college </a>
+                  <a class="dropdown-item" href="#">Register Teacher </a>
+                  <a class="dropdown-item" href="#">Register Employer </a>
+                  <a class="dropdown-item" href="#">Register Sponser </a>
+                  <a class="dropdown-item" href="#">Register Mentor </a>
+                  <a class="dropdown-item" href="#">Today Winners</a>
+              </div>
+          </li>
+          </ul>
+    
+        </div>
+    </div> 
+    </nav>
+
+
+    <section id="img-overlay">
+        <h2 class="section-heading pb-3">
+          Jumbotron with image overlay
+        </h2>
+        <section class="mx-2 mb-5">  
+          <div class="card card-image" style="background-image: url(https://mdbootstrap.com/img/Photos/Others/forest2.jpg);">
+            <div class="text-white text-center rgba-stylish-strong py-5 px-4">
+              <div class="py-5">
+                <h5 class="h5 orange-text"><i class="fas fa-camera-retro"></i> Smart Cookie</h5>
+                <h2 class="card-title h2 my-4 py-2">Block chain for Smart Cookie Reward points system</h2>
+                <p class="mb-4 pb-2 px-md-5 mx-md-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur obcaecati vero aliquid libero doloribus ad, unde tempora maiores, ullam, modi qui quidem minima debitis perferendis vitae cumque et quo impedit.</p>
+                <a class="btn btn-primary btn-lg" href="#" role="button" style="margin-top: 50px;"><i class="fas fa-clone left"></i> View project</a>
+      
+              </div>
+            </div>
+          </div>
+        </section>    
+      </section>
+
+      <div class="container">  
+        
+        <div class="row mt-4" style="padding-left: 35px;padding-bottom: 50px;padding-top: 100px;">
+
+          <div class="col-md-4 col-lg-4">
+            <div class="card" style="width: 18rem;">
+              <img src="https://image.shutterstock.com/image-vector/blockchain-technology-agreement-handshake-business-600w-760467970.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Classes</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col-md-4 col-lg-4">
+            <div class="card" style="width: 18rem;">
+              <img src="https://image.shutterstock.com/image-vector/blockchain-line-icon-logo-concept-260nw-754816570.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Courses</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col-md-4 col-lg-4">
+            <div class="card" style="width: 18rem;">
+              <img src="https://image.shutterstock.com/image-photo/abstract-image-business-man-hold-260nw-1013061979.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Distance Learning</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+    
+        </div>
+      </div>
+
+      <div class="container" style="margin-top: 80px; padding-bottom: 80px;">        
+        <div class="jumbotron text-center mdb-color lighten-2 white-text mx-2 mb-5" style="background-color: rgba(62,69,81,0.7);">  
+          <h2 class="card-title h2">Block chain for Smart Cookie Reward points system</h2>
+          <p class="my-4 h6">Powerful and free Material Design UI KIT</p>
+          <div class="row d-flex justify-content-center" style="margin-top: 0px;">  
+            <div class="col-xl-7 pb-2" >
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga aliquid dolorem ea distinctio exercitationem delectus qui, quas eum architecto, amet quasi accusantium, fugit consequatur ducimus obcaecati numquam molestias hic itaque accusantium doloremque laudantium, totam rem aperiam.</p>
+            </div>
+          </div>
+          <hr class="my-4 rgba-white-light" style="margin-top: 0rem;">
+          <div class="pt-2">
+            <button type="button" class="btn btn-outline-white">Buy now <i class="far fa-gem ml-1"></i></button>
+            <button type="button" class="btn btn-outline-white">Download <i class="fas fa-download ml-1"></i></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="jumbotron jumbotron-fluid text-white" style="background-image:url(img/back.png);">
+        <div class="container">
+          <section class="section  section-services " id="services">
+            <div class="container">
+              <div class="section-head text-left">
+                <h1 class="h1">Heading</h1>
+              </div>
+    
+             
+              <div class="row mt-5 mb-0">
+                <div class="col-sm-6 col-md-4">
+                  <div class="services-list d-flex py-4 mb-0 mb-md-4">
+                    <div class="services-list-icon">
+                      <i class="fas fa-paint-brush  "></i> 
+                    </div>
+                    <div>
+                      <h4 class="h4 mb-0 ml-3">Heading 1</h4>
+                      <p class=" mt-3 ml-3">Ipsum veniam asperiores suscipit facilis! Iste adipisci quibusdam obcaecati nobis consectetur</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                  <div class="services-list d-flex py-4 mb-0 mb-md-4">
+                    <div class="services-list-icon">
+                      <i class="fas fa-palette  "></i> 
+                    </div>
+                    <div>
+                      <h4 class="h4 mb-0 ml-3">Heading 2</h4>
+                      <p class=" mt-3 ml-3">Ipsum veniam asperiores suscipit facilis! Iste adipisci quibusdam obcaecati nobis consectetur</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                  <div class="services-list d-flex py-4 mb-0 mb-md-4">
+                    <div class="services-list-icon">
+                      <i class="fas fa-compact-disc  "></i> 
+                    </div>
+                    <div>
+                      <h4 class="h4 mb-0 ml-3">Heading 3</h4>
+                      <p class=" mt-3 ml-3">Ipsum veniam asperiores suscipit facilis! Iste adipisci quibusdam obcaecati nobis consectetur</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                  <div class="services-list d-flex py-4 mb-0 mb-md-4">
+                    <div class="services-list-icon">
+                      <i class="fa fa-puzzle-piece  " aria-hidden="true"></i> 
+                    </div>
+                    <div>
+                      <h4 class="h4 mb-0 ml-3">Heading 4</h4>
+                      <p class=" mt-3 ml-3">Ipsum veniam asperiores suscipit facilis! Iste adipisci quibusdam obcaecati nobis consectetur</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                  <div class="services-list d-flex py-4 mb-0 mb-md-4">
+                    <div class="services-list-icon">
+                      <i class="fa fa-gamepad  " aria-hidden="true"></i> 
+                    </div>
+                    <div>
+                      <h4 class="h4 mb-0 ml-3">Heading 5</h4>
+                      <p class=" mt-3 ml-3">Ipsum veniam asperiores suscipit facilis! Iste adipisci quibusdam obcaecati nobis consectetur</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                  <div class="services-list d-flex py-4 mb-0 mb-md-4">
+                    <div class="services-list-icon">
+                      <i class="far fa-chart-bar  "></i> 
+                    </div>
+                    <div>
+                      <h4 class="h4 mb-0 ml-3">Heading 6</h4>
+                      <p class=" mt-3 ml-3">Ipsum veniam asperiores suscipit facilis! Iste adipisci quibusdam obcaecati nobis consectetur</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            
+            </div>
+          </section> 
+        
+       </div>
+      </div>
+
+    <footer class="container" style="margin-top: 50px;">
+        <p class="float-right"><a href="#">Back to top</a></p>
+        <p>© 2017-2020 Startupworld, · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+    </footer>
+    
+</body>
+</html>
