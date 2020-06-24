@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Startup World main</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <link href="https://getbootstrap.com/docs/4.5/examples/carousel/carousel.css" rel="stylesheet">
+    
+    
+  
+</head>
+
+<style>
+  #jumbo1 {
+  background-image: url('img/mob.png');
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
+  text-align: center;
+  color: #fff;
+  height: 550px;
+} 
+
+      .card-body
+      {
+        text-align: center;
+      }
+      .card-img-top
+      {
+        height: 80px;
+        width: auto;
+      }
+      .card-title
+      {
+        font-size: 20px;
+        font-weight: 700;
+      }
+
+      .container {
+    position: relative;
+    z-index: 1;
+}
+.justify-content-center {
+    -webkit-box-pack: center!important;
+    justify-content: center!important;
+}
+.align-items-center {
+    -webkit-box-align: center!important;
+    align-items: center!important;
+}
+.row {
+    display: -webkit-box;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -1.5rem;
+    margin-left: -1.5rem;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.mb-5{
+    margin-bottom: 3rem!important;
+}
+.mb-3{
+    margin-bottom: 1rem!important;
+}
+.h4, h4 {
+    font-size: 1.125rem;
+}
+.section {
+    position: relative;
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+}
+.text-white.text-muted {
+    color: rgba(255,255,255,.65)!important;
+}
+.text-white {
+    color: #fff!important;
+}
+.line {
+    position: absolute;
+    left: 50%;
+    height: 5rem;
+    border-left: 2px solid #d2aa78;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.col {
+    flex-basis: 0;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    max-width: 100%;
+}
+.form-row {
+    display: -webkit-box;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -5px;
+    margin-left: -5px;
+    
+}
+.square {
+    position: relative;
+    padding-bottom: 100%;
+}
+.bg-cover {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.card {
+    display: -webkit-box;
+    display: flex;
+}
+@media (min-width: 768px)
+{
+.card-stretch {
+    height: 100%;
+}}
+.card-stretch .card-body {
+    display: inherit;
+    -webkit-box-orient: inherit;
+    -webkit-box-direction: inherit;
+    flex-direction: inherit;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+.bg-primary {
+    background-color: #d2aa78!important;
+}
+.text-right {
+  padding-right: 110px;
+
+}
+.line-top {
+    top: 20px;
+}
+@media (min-width: 768px){
+.line {
+    height: 7.5rem;
+}}
+
+</style>
+
+<body>
+   
+    <header>
+
+    <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light" style="background-color: #e3f2fd;">
+      <div class="container">
+        
+      <a class="navbar-brand" href="#"> <img src="http://startupworld.in/image/theme/logo.png" width="120" height="auto"> </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mt-2 mt-md-0">
+         
+        </ul>
+       
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item ">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Technologies We Handle</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Our Domains</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">What we tech</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="DropdownMenuLink" role="button"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Training
+            </a>
+            <div class="dropdown-menu" aria-labelledby="DropdownMenuLink">
+                <a class="dropdown-item" href="#">Courses</a>
+                <a class="dropdown-item" href="#">Syllabus</a>
+            </div>
+        </li>
+        <li class="nav-item active">
+            <a class="nav-link" href="#">Internship</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Contact Us</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="DropdownMenuLink" role="button"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Register
+            </a>
+            <div class="dropdown-menu" aria-labelledby="DropdownMenuLink">
+                <a class="dropdown-item" href="#">Register for Student</a>
+                <a class="dropdown-item" href="#">Ethical HR Registration</a>
+                <a class="dropdown-item" href="#">Register college </a>
+                <a class="dropdown-item" href="#">Register Teacher </a>
+                <a class="dropdown-item" href="#">Register Employer </a>
+                <a class="dropdown-item" href="#">Register Sponser </a>
+                <a class="dropdown-item" href="#">Register Mentor </a>
+                <a class="dropdown-item" href="#">Today Winners</a>
+            </div>
+        </li>
+        </ul>
+  
+      </div>
+  </div> 
+  </nav>
+    </header>
+
+
+      <div class="jumbotron text-right" id="jumbo1">
+        <h1 class="display-4 m-5">App Marketing </h1>
+        <p class="lead" style="color: blanchedalmond;">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non</p>
+        <p>
+          <a class="btn btn-primary btn-lg" href="#" role="button">Learn More</a>
+        </p>
+      </div>
+
+      <div class="container" style="background-color:#f8f9fa;border-radius: 10px;">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-lg-6">
+            
+            <!-- Heading -->
+            <h2 class="text-center mb-4">
+              Our key features
+            </h2>
+
+            <!-- Subheading -->
+            <p class="text-muted text-center mb-5">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe aspernatur ullam doloremque deleniti sequi obcaecat.
+            </p>
+
+          </div>
+        </div> <!-- / .row -->
+        <div class="row align-items-center" style="padding-left: 40px; padding-right: 40px;">
+          <div class="col-md-4 col-lg-3">
+
+            <!-- Item -->
+            <div class="mb-5">
+              
+              <!-- Icon -->
+              <div>
+                <span class="icon icon-marker icon-2x">
+                  <img src="img/th (60).jpg" style="width: 50px;height: 50px;">
+                </span>
+                
+              </div>
+
+              <!-- Heading -->
+              <h4 class="mb-3">
+                Interactive map
+              </h4>
+
+              <!-- Content -->
+              <p class="text-muted mb-0">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi culpa, corporis.
+              </p>
+
+            </div>
+
+            <!-- Item -->
+            <div class="mb-5">
+              
+              <!-- Icon -->
+              <div>
+                <span class="icon icon-camera icon-2x">
+                  <img src="img/th (59).jpg" style="width: 50px;height: 50px;">
+                </span>
+              </div>
+
+              <!-- Heading -->
+              <h4 class="mb-3">
+                High-quality photos
+              </h4>
+
+              <!-- Content -->
+              <p class="text-muted mb-0">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi culpa, corporis.
+              </p>
+
+            </div>
+
+            <!-- Item -->
+            <div class="mb-5 mb-md-0">
+              
+              <!-- Icon -->
+              <div>
+                <span class="icon icon-camera icon-2x">
+                  <img src="img/th (53).jpg" style="width: 50px;height: 50px;">
+                </span>
+              </div>
+
+              <!-- Heading -->
+              <h4 class="mb-3">
+                Customer support
+              </h4>
+
+              <!-- Content -->
+              <p class="text-muted mb-0">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi culpa, corporis.
+              </p>
+
+            </div>
+
+          </div>
+          <div class="col-md-4 col-lg-4 offset-lg-1">
+            
+            <!-- Image -->
+            <div class="text-center mb-5 mb-md-0">
+              <img src="img/33.png" alt="..." class="img-fluid mx-auto">
+            </div>
+
+          </div>
+          <div class="col-md-4 col-lg-3 offset-lg-1">
+
+            <!-- Item -->
+            <div class="text-left text-md-right mb-5">
+              
+              <!-- Icon -->
+              <div>
+                <span class="icon icon-camera icon-2x">
+                  <img src="img/th (55).jpg" style="width: 50px;height: 50px;">
+                </span>
+              </div>
+
+              <!-- Heading -->
+              <h4 class="mb-3">
+                Only best properties
+              </h4>
+
+              <!-- Content -->
+              <p class="text-muted mb-0">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi culpa, corporis.
+              </p>
+
+            </div>
+
+            <!-- Item -->
+            <div class="text-left text-md-right mb-5">
+              
+              <!-- Icon -->
+              <div>
+                <span class="icon icon-camera icon-2x">
+                  <img src="img/th (57).jpg" style="width: 50px;height: 50px;">
+                </span>
+              </div>
+
+              <!-- Heading -->
+              <h4 class="mb-3">
+                Daily updates
+              </h4>
+
+              <!-- Content -->
+              <p class="text-muted mb-0">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi culpa, corporis.
+              </p>
+
+            </div>
+
+            <!-- Item -->
+            <div class="text-left text-md-right">
+              
+              <!-- Icon -->
+              <div>
+                <span class="icon icon-camera icon-2x">
+                  <img src="img/th (56).jpg" style="width: 50px;height: 50px;">
+                </span>
+              </div>
+
+              <!-- Heading -->
+              <h4 class="mb-3">
+                Personalized alerts
+              </h4>
+
+              <!-- Content -->
+              <p class="text-muted mb-0">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi culpa, corporis.
+              </p>
+
+            </div>
+
+          </div>
+        </div> <!-- / .row -->
+      </div>
+      
+      <div class="container marketing">
+
+        <section class="section">
+
+          <!-- Line -->
+          <div class="line line-top"></div>
+    
+          <!-- Content -->
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-md-8 col-lg-6">
+    
+                <!-- Heading -->
+                <h2 class="text-center mb-4">
+                  Take a sneak peek
+                </h2>
+    
+                <!-- Subheading -->
+                <p class="text-muted text-center mb-5">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit doloribus possimus cum ducimus consequatur aspernatur.
+                </p>
+                
+              </div>
+            </div> <!-- / .row -->
+            <div class="row">
+              <div class="col">
+                <div class="form-row">
+                  <div class="col-md-6 col-lg-3 mb-2">
+                    
+                    <!-- Image -->
+                    <div class="square">
+                      
+                      <!-- Cover -->
+                      <div class="bg-cover" style="background-image: url(img/86505733.jpg);"></div>
+    
+                    </div>
+                    
+                  </div>
+                  <div class="col-md-6 col-lg-3 mb-2">
+                    
+                    <!-- Image -->
+                    <div class="square">
+                      
+                      <!-- Cover -->
+                      <div class="bg-cover" style="background-image: url('img/Accenture-Entry-Level-marquee.jpg');"></div>
+    
+                    </div>
+    
+                  </div>
+                  <div class="col-md-12 col-lg-6 mb-2">
+                    
+                    <!-- Card -->
+                    <div class="card card-stretch text-white text-center bg-primary">
+    
+                      <!-- Body -->
+                      <div class="card-body">
+    
+                        <!-- Icon -->
+                        <div class="card-icon">
+                          <span class="icon icon-camera"></span>
+                        </div>
+    
+                        <!-- Content -->
+                        <p class="card-text">
+                          High-quality photos and detailed property description are available for you to make the right choice.
+                        </p>
+    
+                      </div>
+    
+                    </div> <!-- / .card -->
+    
+                  </div>
+                </div> <!-- / .form-row -->
+                <div class="form-row">
+                  <div class="col-md-6 col-lg-3 mb-2 order-lg-2">
+                    
+                    <!-- Image -->
+                    <div class="square">
+                      
+                      <!-- Cover -->
+                      <div class="bg-cover" style="background-image: url(img/47.jpg);"></div>
+    
+                    </div>
+    
+                  </div>
+                  <div class="col-md-6 col-lg-3 mb-2 order-lg-3">
+                    
+                    <!-- Image -->
+                    <div class="square">
+                      
+                      <!-- Cover -->
+                      <div class="bg-cover" style="background-image: url(img/httpsblogs-images.forbes.comchuckcohnfiles201705Internal-business-meeting.jpg);"></div>
+    
+                    </div>
+    
+                  </div>
+                  <div class="col-md-12 col-lg-6 mb-2 order-lg-1">
+                    
+                    <!-- Card -->
+                    <div class="card card-stretch text-white text-center bg-primary">
+    
+                      <!-- Body -->
+                      <div class="card-body">
+    
+                        <!-- Icon -->
+                        <div class="card-icon">
+                          <span class="icon icon-tick icon"></span>
+                        </div>
+    
+                        <!-- Content -->
+                        <p class="card-text">
+                          The app is available in 10 languages and offsers 12 different currencies for clients throughout the world.
+                        </p>
+    
+                      </div>
+    
+                    </div> <!-- / .card -->
+    
+                  </div>
+                </div> <!-- / .form-row -->
+              </div>
+            </div> <!-- / .row -->
+          </div> <!-- / .container -->
+    
+        </section>
+
+        
+       
+    
+      <center> <div class="col-md-12">
+        <div class="jumbotron pt-5">
+          <h2>Heading</h2><hr>
+          <p style= "line-height:200%;">Education is the process of facilitating learning, or the acquisition of knowledge, skills, values, beliefs, 
+            and habits. Educational methods include teaching, training, storytelling, discussion and directed research. 
+            Education frequently takes place under the guidance of educators, however learners can also educate themselves.
+             Education can take place in formal or informal settings and any experience that has a formative effect on the way one thinks, 
+            feels, or acts may be considered educational. The methodology of teaching is called pedagogy.
+           
+          </p>
+          </div></div></center>
+
+      
+    
+
+      </div><!-- /.container -->
+
+      <section class="section bg-dark">
+
+  
+        <!-- Content -->
+        <div class="container" style="padding-bottom: 5rem;">
+          <div class="row align-items-center justify-content-center">
+            <div class="col-md-8">
+              
+              <!-- Heading -->
+              <h3 class="text-white mb-4">
+                Wait no more. Download it now.
+              </h3>
+  
+              <!-- Content -->
+              <p class="text-white text-muted mb-4 mb-md-0">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae dolores, voluptates atque dicta vero quibusdam laudantium saepe sequi harum.
+              </p>
+  
+            </div>
+            <div class="col-md-4">
+              
+              <!-- Button -->
+              <a href="#!" class="btn btn-outline-primary text-white">
+                Download app
+              </a>
+  
+            </div>
+          </div> <!-- / .row -->
+        </div> <!-- / .container -->
+  
+      </section>
+
+            
+<footer class="page-footer font-small blue ">
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center pt-3" style="color:black;">© 2020 Copyright:
+          <a href="#"> Startupworld</a>
+        </div>
+        <!-- Copyright -->
+      
+      </footer>
+</body>
+
+</html>

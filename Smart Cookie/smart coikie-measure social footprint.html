@@ -1,0 +1,278 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="generator" content="">
+    <title>Startupworld · Using Bootstrap</title>
+
+    <link rel="canonical" href="#">
+
+    <!-- Bootstrap core CSS -->
+<link href="https://getbootstrap.com/docs/4.5/dist/css/bootstrap.min.css" rel="stylesheet" >
+
+    <!-- Favicons -->
+<link rel="apple-touch-icon" href="https://getbootstrap.com/docs/4.5/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+<link rel="icon" href="https://getbootstrap.com/docs/4.5/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="https://getbootstrap.com/docs/4.5/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+<link rel="manifest" href="https://getbootstrap.com/docs/4.5/assets/img/favicons/manifest.json">
+<link rel="mask-icon" href="https://getbootstrap.com/docs/4.5/assets/img/favicons/safari-pinned-tab.svg" color="#563d7c">
+<link rel="icon" href="https://getbootstrap.com/docs/4.5/assets/img/favicons/favicon.ico">
+<meta name="msapplication-config" content="https://getbootstrap.com/docs/4.5/assets/img/favicons/browserconfig.xml">
+<meta name="theme-color" content="#563d7c">
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .blockquote {
+    padding: .5rem 1rem;
+    border-left: .25rem solid #eceeef;
+}
+
+.blockquote {
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+}
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    font-weight: 400;
+    border: 0;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+/* .container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+@media (min-width: 1200px){
+  .container {
+    max-width: 1140px;
+}
+
+} */
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.card-background{
+    background-position: 50%;
+    background-size: cover;
+    text-align: center;
+    
+}
+.card-background .card-body, .front-background .card-body {
+    position: relative;
+    z-index: 2;
+    min-height: 280px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    max-width: 440px;
+    margin: 0 auto;}
+
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="https://getbootstrap.com/docs/4.5/examples/carousel/carousel.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light" style="background-color: #e3f2fd;">
+        <div class="container">
+          
+        <a class="navbar-brand" href="#"> <img src="http://startupworld.in/image/theme/logo.png" width="120" height="auto"> </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mt-2 mt-md-0">
+           
+          </ul>
+         
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item ">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#">Technologies We Handle</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#">Our Domains</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#">What we tech</a>
+          </li>
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="DropdownMenuLink" role="button"
+                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Training
+              </a>
+              <div class="dropdown-menu" aria-labelledby="DropdownMenuLink">
+                  <a class="dropdown-item" href="#">Courses</a>
+                  <a class="dropdown-item" href="#">Syllabus</a>
+              </div>
+          </li>
+          <li class="nav-item active">
+              <a class="nav-link" href="#">Internship</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+          </li>
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="DropdownMenuLink" role="button"
+                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Register
+              </a>
+              <div class="dropdown-menu" aria-labelledby="DropdownMenuLink">
+                  <a class="dropdown-item" href="#">Register for Student</a>
+                  <a class="dropdown-item" href="#">Ethical HR Registration</a>
+                  <a class="dropdown-item" href="#">Register college </a>
+                  <a class="dropdown-item" href="#">Register Teacher </a>
+                  <a class="dropdown-item" href="#">Register Employer </a>
+                  <a class="dropdown-item" href="#">Register Sponser </a>
+                  <a class="dropdown-item" href="#">Register Mentor </a>
+                  <a class="dropdown-item" href="#">Today Winners</a>
+              </div>
+          </li>
+          </ul>
+    
+        </div>
+    </div> 
+    </nav>
+</header>
+
+<main role="main">
+
+ 
+
+
+  <div class="card card-image mt-4" style="background-image: url('img/poly.jpg');">
+    <div class="text-white text-center rgba-stylish-strong py-5 px-4">
+      <div class="py-5">
+        <h2 class="card-title h2 my-4 py-2">Measure Social Footprint of a Student and reward him/her</h2>
+        <p class="mb-4 pb-2 px-md-5 mx-md-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur obcaecati vero aliquid libero doloribus ad, unde tempora maiores, ullam, modi qui quidem minima debitis perferendis vitae cumque et quo impedit.</p>
+        <a class="btn btn-secondary" href="#" role="button">View details &raquo;</a>
+  
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+      <div class="row mt-5">
+        <div class="col-md-6">
+          <div class="card card-raised card-background" style="background-color: #FEC84D;">
+            <div class="card-body">
+              <h6 class="card-category text-info">Worlds</h6>
+              <a href="#pablo">
+                <h3 class="card-title">The Best Productivity Apps on Market</h3>
+              </a>
+              <p class="card-description">
+                Don't be scared of the truth because we need to restart the human foundation in truth And I love you like Kanye loves Kanye I love Rick Owens’ bed design but the back is...
+              </p>
+              <a href="#pablo" class="btn btn-danger btn-round">
+               Read Article
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card card-raised card-background" style="background-color: #65FC6A;">
+            <div class="card-body">
+              <h6 class="card-category text-info">Business</h6>
+              <a href="#pablo">
+                <h3 class="card-title">The Best Productivity Apps on Market</h3>
+              </a>
+              <p class="card-description">
+                Don't be scared of the truth because we need to restart the human foundation in truth And I love you like Kanye loves Kanye I love Rick Owens’ bed design but the back is...
+              </p>
+              <a href="#pablo" class="btn btn-primary btn-round">
+                 Read Article
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12 mt-5">
+          <div class="card card-raised card-background" style="background-image: url('img/th (3).jpg');">
+            <div class="card-body">
+              <h6 class="card-category text-info">Marketing</h6>
+              <h3 class="card-title">0 to 100.000 Customers in 6 months</h3>
+              <p class="card-description">
+                Don't be scared of the truth because we need to restart the human foundation in truth And I love you like Kanye loves Kanye I love Rick Owens’ bed design but the back is...
+              </p>
+              <a href="#pablo" class="btn btn-warning btn-round">
+                <i class="material-icons">subject</i> Read Case Study
+              </a>
+              <a href="#pablo" class="btn btn-white btn-just-icon btn-link" title="" rel="tooltip" data-original-title="Save to Pocket">
+                <i class="fa fa-get-pocket"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+        <div class="row">
+          <img src="img/httpsblogs-images.forbes.comchuckcohnfiles201705Internal-business-meeting.jpg" class="col-md-6 col-lg-6 img-fluid p-3" style="height: 400px; width: 550px;">
+        <div class="col-md-6 col-lg-6 mt-5"><h2 style="font-family: Georgia, Sans-serif; text-align: center;">Heading</h2>
+          <p style="line-height: 200%;"> Duis mollis, est non commodo luctus, nisi erat porttitor ligula, 
+            Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.
+            Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.
+          </p></div>
+        </div>
+      
+
+    </div>
+  
+
+  <div class="jumbotron jumbotron-fluid mt-4" style="background-image: linear-gradient(to left top, #051937, #274165, #4a6f95, #6ea0c8, #95d4fc);;">
+    <div class="container py-5">
+      <h1 class="display-4">Fluid jumbotron</h1>
+      <blockquote class="blockquote text-center">
+        <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+        <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+      </blockquote>
+    </div>
+  </div>
+
+      
+   <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-right"><a href="#">Back to top</a></p>
+    <p>&copy; 2017-2020 Startupworld, &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+  </footer>
+</main>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script>window.jQuery || document.write('<script src="https://getbootstrap.com/docs/4.5/assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="https://getbootstrap.com/docs/4.5/dist/js/bootstrap.bundle.min.js" ></script></body>
+</html>

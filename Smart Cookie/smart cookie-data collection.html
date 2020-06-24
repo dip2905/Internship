@@ -1,0 +1,424 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="generator" content="">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+
+    <title>Startupworld · Using Bootstrap</title>
+
+    <link rel="canonical" href="#">
+
+    <!-- Bootstrap core CSS -->
+<link href="https://getbootstrap.com/docs/4.5/dist/css/bootstrap.min.css" rel="stylesheet" >
+
+    <!-- Favicons -->
+<link rel="apple-touch-icon" href="https://getbootstrap.com/docs/4.5/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+<link rel="icon" href="https://getbootstrap.com/docs/4.5/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="https://getbootstrap.com/docs/4.5/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+<link rel="manifest" href="https://getbootstrap.com/docs/4.5/assets/img/favicons/manifest.json">
+<link rel="mask-icon" href="https://getbootstrap.com/docs/4.5/assets/img/favicons/safari-pinned-tab.svg" color="#563d7c">
+<link rel="icon" href="https://getbootstrap.com/docs/4.5/assets/img/favicons/favicon.ico">
+<meta name="msapplication-config" content="https://getbootstrap.com/docs/4.5/assets/img/favicons/browserconfig.xml">
+<meta name="theme-color" content="#563d7c">
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .blockquote {
+    padding: .5rem 1rem;
+    border-left: .25rem solid #eceeef;
+}
+
+.blockquote {
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+}
+
+#jumbo1 {
+  background-image: url('img/maxresdefault (1).jpg');
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
+  text-align: center;
+  color: #fff;
+  height: 550px;
+  
+} 
+.imageStyle {
+    width: 300px;
+    height: 200px;
+}
+.rirs_center {
+    width: 978px;
+    padding: 0 10px;
+    margin: 0 auto;
+    position: relative;
+    clear: both;
+}
+img {
+    border: 0;
+    object-fit: cover;
+    
+}
+.row {
+    text-align: center;
+    
+}
+ 
+
+.text-right {
+  padding-right: 110px;
+
+}
+#cont1{
+      
+        box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2) , 0 4px 20px 0 rgba(0,0,0,0.19);
+        border-radius: 15px;
+        margin-bottom: 25px;
+      
+      }
+      .card{
+        box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2) , 0 4px 20px 0 rgba(0,0,0,0.19);
+        
+      }
+      .card .card-img-top{
+        box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2) , 0 4px 20px 0 rgba(0,0,0,0.19);
+        height: 180px;
+      }
+      
+
+  
+
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="https://getbootstrap.com/docs/4.5/examples/carousel/carousel.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light" style="background-color: #e3f2fd;">
+        <div class="container">
+          
+        <a class="navbar-brand" href="#"> <img src="http://startupworld.in/image/theme/logo.png" width="120" height="auto"> </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mt-2 mt-md-0">
+           
+          </ul>
+         
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item ">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#">Technologies We Handle</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#">Our Domains</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#">What we tech</a>
+          </li>
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="DropdownMenuLink" role="button"
+                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Training
+              </a>
+              <div class="dropdown-menu" aria-labelledby="DropdownMenuLink">
+                  <a class="dropdown-item" href="#">Courses</a>
+                  <a class="dropdown-item" href="#">Syllabus</a>
+              </div>
+          </li>
+          <li class="nav-item active">
+              <a class="nav-link" href="#">Internship</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+          </li>
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="DropdownMenuLink" role="button"
+                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Register
+              </a>
+              <div class="dropdown-menu" aria-labelledby="DropdownMenuLink">
+                  <a class="dropdown-item" href="#">Register for Student</a>
+                  <a class="dropdown-item" href="#">Ethical HR Registration</a>
+                  <a class="dropdown-item" href="#">Register college </a>
+                  <a class="dropdown-item" href="#">Register Teacher </a>
+                  <a class="dropdown-item" href="#">Register Employer </a>
+                  <a class="dropdown-item" href="#">Register Sponser </a>
+                  <a class="dropdown-item" href="#">Register Mentor </a>
+                  <a class="dropdown-item" href="#">Today Winners</a>
+              </div>
+          </li>
+          </ul>
+    
+        </div>
+    </div> 
+    </nav>
+</header>
+
+<main role="main">
+
+
+  
+  <div class="jumbotron text-right" id="jumbo1">
+    <h1 class="display-4"> Data Collection and Analytics <br>for the Sponsors <br>for the Rewards <br>Engine </h1>
+    <p class="lead" style="color: blanchedalmond;">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non</p>
+    <p>
+      <a class="btn btn-primary btn-lg" href="#" role="button">Learn More</a>
+    </p>
+  </div>
+
+
+ <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  
+
+  <div class="container" id="cont1">
+
+     <center> <h1 class="pt-4">Heading</h1></center>
+
+     <div class="row mt-4" style="padding-left: 35px;padding-bottom: 20px;">
+
+      <div class="col-md-4 col-lg-4">
+        <div class="card" style="width: 18rem;">
+          <img src="img/th (48).jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-lg-4">
+        <div class="card" style="width: 18rem;">
+          <img src="img/th (49).jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-lg-4">
+        <div class="card" style="width: 18rem;">
+          <img src="img/startupworld_slider_ios.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+   
+
+      <div class="jumbotron text-center hoverable p-4 mt-3">
+
+          <!-- Grid row -->
+          <div class="row">
+
+              <!-- Grid column -->
+              <div class="col-md-4 offset-md-1 mx-3 my-3">
+
+                  <!-- Featured image -->
+                  <div class="view overlay">
+                      <img src="https://mdbootstrap.com/img/Photos/Others/laptop-sm.jpg" class="img-fluid" alt="Sample image for first version of blog listing">
+                      <a>
+                          <div class="mask rgba-white-slight"></div>
+                      </a>
+                  </div>
+
+              </div>
+              <!-- Grid column --> 
+
+              <!-- Grid column -->
+              <div class="col-md-7 text-md-left ml-3">
+
+                  <!-- Excerpt -->
+                  <a href="#!" class="green-text">
+                      <h6 class="h6 pb-1"><i class="fas fa-desktop pr-1"></i> Work</h6>
+                  </a>
+
+                  <h4 class="h4 mb-4">Help Desk Management</h4>
+
+                  <p class="font-weight-normal">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                      accusantium doloremque, totam
+                      rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
+                      dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur.</p>
+                  <p class="font-weight-normal">by <a><strong>Carine Fox</strong></a>, 19/08/2016</p>
+
+                  <a class="btn btn-success">Read more</a>
+
+              </div>
+              <!-- Grid column -->
+
+          </div>
+          <!-- Grid row -->
+
+      </div>
+
+      <section class="rirs_center">
+        <center><h1> Title </h1></center>
+        <div class="row">
+          <div class="col-md-4 col-lg-4 col-sm-12" style="height:auto;width:auto;background-color:#FFFFFF;">
+            <img src="img/th (101).jpg" class="imageStyle">
+            <div class="textstyle"><p>Promoting peace</p>
+              <p><a href="#" class="viewProjectStyle">View Projects</a></p>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-4 col-sm-12" style="height:auto;width:auto;background-color:#FFFFFF;">
+            <img src="img/th (103).jpg" class="imageStyle">
+            <div class="textstyle"><p>Fighting disease</p>
+              <p><a href="#" class="viewProjectStyle">View Projects</a></p>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-4 col-sm-12" style="height:auto;width:auto;background-color:#FFFFFF;">
+            <img src="img/Steps in Project Management Process.jpg" class="imageStyle">
+            <div class="textstyle"><p>Fighting disease</p>
+              <p><a href="#" class="viewProjectStyle">View Projects</a></p>
+            </div>
+          </div>
+          
+      </div>
+      </section>
+      
+      
+
+    </div>
+
+
+
+
+
+ 
+  <div class="jumbotron jumbotron-fluid text-white" style="background:url(img/black.jpg);">
+    <div class="container">
+      <section class="section  section-services " id="services">
+        <div class="container">
+          <div class="section-head text-left">
+            <h1 class="h1">Heading</h1>
+          </div>
+
+         
+          <div class="row mt-5 mb-0">
+            <div class="col-sm-6 col-md-4">
+              <div class="services-list d-flex py-4 mb-0 mb-md-4">
+                <div class="services-list-icon">
+                  <i class="fas fa-paint-brush  "></i> 
+                </div>
+                <div>
+                  <h4 class="h4 mb-0 ml-3">Heading 1</h4>
+                  <p class=" mt-3 ml-3">Ipsum veniam asperiores suscipit facilis! Iste adipisci quibusdam obcaecati nobis consectetur</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+              <div class="services-list d-flex py-4 mb-0 mb-md-4">
+                <div class="services-list-icon">
+                  <i class="fas fa-palette  "></i> 
+                </div>
+                <div>
+                  <h4 class="h4 mb-0 ml-3">Heading 2</h4>
+                  <p class=" mt-3 ml-3">Ipsum veniam asperiores suscipit facilis! Iste adipisci quibusdam obcaecati nobis consectetur</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+              <div class="services-list d-flex py-4 mb-0 mb-md-4">
+                <div class="services-list-icon">
+                  <i class="fas fa-compact-disc  "></i> 
+                </div>
+                <div>
+                  <h4 class="h4 mb-0 ml-3">Heading 3</h4>
+                  <p class=" mt-3 ml-3">Ipsum veniam asperiores suscipit facilis! Iste adipisci quibusdam obcaecati nobis consectetur</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+              <div class="services-list d-flex py-4 mb-0 mb-md-4">
+                <div class="services-list-icon">
+                  <i class="fa fa-puzzle-piece  " aria-hidden="true"></i> 
+                </div>
+                <div>
+                  <h4 class="h4 mb-0 ml-3">Heading 4</h4>
+                  <p class=" mt-3 ml-3">Ipsum veniam asperiores suscipit facilis! Iste adipisci quibusdam obcaecati nobis consectetur</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+              <div class="services-list d-flex py-4 mb-0 mb-md-4">
+                <div class="services-list-icon">
+                  <i class="fa fa-gamepad  " aria-hidden="true"></i> 
+                </div>
+                <div>
+                  <h4 class="h4 mb-0 ml-3">Heading 5</h4>
+                  <p class=" mt-3 ml-3">Ipsum veniam asperiores suscipit facilis! Iste adipisci quibusdam obcaecati nobis consectetur</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+              <div class="services-list d-flex py-4 mb-0 mb-md-4">
+                <div class="services-list-icon">
+                  <i class="far fa-chart-bar  "></i> 
+                </div>
+                <div>
+                  <h4 class="h4 mb-0 ml-3">Heading 6</h4>
+                  <p class=" mt-3 ml-3">Ipsum veniam asperiores suscipit facilis! Iste adipisci quibusdam obcaecati nobis consectetur</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+        </div>
+      </section> 
+    
+   </div>
+  </div>
+
+<!-- FOOTER -->
+  <footer class="container">
+    <p class="float-right"><a href="#">Back to top</a></p>
+    <p>&copy; 2017-2020 Startupworld, &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+  </footer>
+  
+</main>
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script>window.jQuery || document.write('<script src="https://getbootstrap.com/docs/4.5/assets/js/vendor/jquery.slim.min.js"><\/script>')</script>
+      <script src="https://getbootstrap.com/docs/4.5/dist/js/bootstrap.bundle.min.js" ></script>
+
+     
+
+    </body>
+</html>
