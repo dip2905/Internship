@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Startup World</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+    <style>
+        .jumbotron
+        {
+            text-align: center;
+            color:#000;
+            background-image: url(https://hbr.org/resources/images/article_assets/2018/02/R1802B_SPOT_HERO.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .lead
+        {
+            font-weight: 400;
+        }
+        .btn-primary
+        {
+            background: rgb(255,0,61);
+          background: radial-gradient(circle, rgba(255,0,61,0.9587185215883228) 100%, rgba(235,146,146,1) 100%);
+        }
+
+        .card
+        {
+            box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2) , 0 4px 20px 0 rgba(0,0,0,0.19);
+        
+        }
+        .card .card-img-top
+        {
+            box-shadow: 0 4px 5px 0 rgba(0,0,0,0.2) , 0 4px 5px 0 rgba(0,0,0,0.19);
+            height: 180px;
+            width: 287px;
+        }
+        .jumbotron1
+        {
+            text-align: center; 
+            margin-top: 70px;
+
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light" style="background-color: #e3f2fd;">
+        <div class="container">
+          
+        <a class="navbar-brand" href="#"> <img src="http://startupworld.in/image/theme/logo.png" width="120" height="auto"> </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mt-2 mt-md-0">
+           
+          </ul>
+         
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item ">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#">Technologies We Handle</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#">Our Domains</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#">What we tech</a>
+          </li>
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="DropdownMenuLink" role="button"
+                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Training
+              </a>
+              <div class="dropdown-menu" aria-labelledby="DropdownMenuLink">
+                  <a class="dropdown-item" href="#">Courses</a>
+                  <a class="dropdown-item" href="#">Syllabus</a>
+              </div>
+          </li>
+          <li class="nav-item active">
+              <a class="nav-link" href="#">Internship</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+          </li>
+          <li class="nav-item dropdown active">
+              <a class="nav-link dropdown-toggle" href="#" id="DropdownMenuLink" role="button"
+                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Register
+              </a>
+              <div class="dropdown-menu" aria-labelledby="DropdownMenuLink">
+                  <a class="dropdown-item" href="#">Register for Student</a>
+                  <a class="dropdown-item" href="#">Ethical HR Registration</a>
+                  <a class="dropdown-item" href="#">Register college </a>
+                  <a class="dropdown-item" href="#">Register Teacher </a>
+                  <a class="dropdown-item" href="#">Register Employer </a>
+                  <a class="dropdown-item" href="#">Register Sponser </a>
+                  <a class="dropdown-item" href="#">Register Mentor </a>
+                  <a class="dropdown-item" href="#">Today Winners</a>
+              </div>
+          </li>
+          </ul>
+    
+        </div>
+    </div> 
+    </nav>
+
+    <div class="jumbotron">
+        <h1 class="display-4" style="font-weight: 500; margin-bottom: 20px; padding: 20px;">Customizing Rewards system specific to a particular college</h1> 
+        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+        <!-- <hr class="my-4">  -->
+        <p class="lead">It uses utility classes for typography and spacing to space content out within the larger container.</p> 
+        <p>
+          <a class="btn btn-primary btn-lg" href="#" role="button" style="margin-top: 50px; ">Learn more</a>
+        </p> 
+    </div>
+
+    <div class="container">
+        <div class="jumbotron1">
+            <h1 class="display-4" style="font-weight: 300; margin-bottom: 20px; padding: 20px; font-size: 45px;">Lorem iPsum Dolor Sit</h1> 
+            <p class="lead" style="font-weight: 300;">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content .</p>
+            <!-- <hr class="my-4">  -->
+            <p class="lead" style="font-weight: 300;">It uses utility classes for typography and spacing to space content out within the larger container.</p> 
+            <p style="margin-top: 10px;padding: 10px;">
+                <button type="button" class="btn btn-primary" style="margin-right: 7px; margin-left: 7px;margin-top: 10px;">Primary</button>
+                <button type="button" class="btn btn-secondary" style="margin-right: 7px; margin-left: 7px; margin-top: 10px;">Secondary</button>
+                <button type="button" class="btn btn-success" style="margin-right: 7px; margin-left: 7px; margin-top: 10px;">Success</button>
+                <button type="button" class="btn btn-danger" style="margin-right: 7px; margin-left: 7px; margin-top: 10px;">Danger</button>
+                <button type="button" class="btn btn-warning" style="margin-right: 7px; margin-left: 7px; margin-top: 10px;">Warning</button>
+                <button type="button" class="btn btn-info" style="margin-right: 7px; margin-left: 7px; margin-top: 10px;">Info</button>            </p> 
+        </div>
+    </div>
+
+    <div class="container" style="background-color: #f1f1f1; margin-top: 70px;">  
+        
+        <div class="row mt-4" style="padding-left: 35px;padding-bottom: 100px;padding-top: 90px;margin-top: 30px;">
+
+          <div class="col-md-4 col-lg-4">
+            <div class="card" style="width: 18rem;">
+              <img src="img/img47.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Classes</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col-md-4 col-lg-4">
+            <div class="card" style="width: 18rem;">
+              <img src="img/img48.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Courses</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col-md-4 col-lg-4">
+            <div class="card" style="width: 18rem;">
+              <img src="img/img49.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Distance Learning</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+    
+        </div>
+      </div>
+
+      <div class="container" style="margin-top: 90px;">
+        <div class="jumbotron1 text-center hoverable p-4">
+            <div class="row" style="box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2) , 0 4px 10px 0 rgba(0,0,0,0.19); padding: 40px 40px;">
+                <div class="col-md-4 offset-md-1 mx-3 my-3">
+                    <div class="view overlay">
+                        <img src="https://mdbootstrap.com/img/Photos/Others/laptop-sm.jpg" class="img-fluid" alt="Sample image for first version of blog listing">
+                        <a>
+                            <div class="mask rgba-white-slight"></div>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="col-md-7 text-md-left ml-3 mt-3">
+                    <a href="#!" class="green-text">
+                    <h6 class="h6 pb-1"><i class="fas fa-desktop pr-1"></i> Work</h6>
+                    </a>
+                    <h4 class="h4 mb-4">This is title of the news</h4>
+                    <p class="font-weight-normal">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque, totam
+                    rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
+                    dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur.</p>
+                    <p class="font-weight-normal">by <a><strong>Carine Fox</strong></a>, 19/08/2016</p>
+            
+                    <a class="btn btn-primary">Read more</a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+ 
+    <div class="container-fluid" >
+    <div class="jumbotron1" style="padding: 80px; background: rgb(245,182,236);
+    background: linear-gradient(243deg, rgba(245,182,236,0.9559174011401436) 0%, rgba(154,33,135,1) 81%);">
+        <h1 class="display-4" style="font-weight: 400; margin-bottom: 20px; padding: 20px; font-size: 45px;">Lorem iPsum Dolor Sit</h1> 
+        <p class="lead" style="font-weight: 400;">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content .</p>
+        <!-- <hr class="my-4">  -->
+        <p class="lead" style="font-weight: 400;">It uses utility classes for typography and spacing to space content out within the larger container.</p> 
+        
+    </div>
+    </div>
+
+
+    <footer class="container" style="margin-top: 50px;">
+        <p class="float-right"><a href="#">Back to top</a></p>
+        <p>© 2017-2020 Startupworld, · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+    </footer>
+    
+    
+</body>
+</html>
